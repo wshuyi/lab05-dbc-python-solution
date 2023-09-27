@@ -1,8 +1,11 @@
-name: my_environment_name
+name: example-environment
 channels:
-  - defaults
+  - conda-forge
 dependencies:
-  - python=3.10
-  # 其他依赖项，例如：
-  # - numpy
-  # - pandas
+  - python
+  - pip
+  - pip:
+    - matplotlib
+    - numpy
+    - pandas
+    - scikit_learn
