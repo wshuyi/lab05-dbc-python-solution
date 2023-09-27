@@ -1,0 +1,11 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "index":{"type":"number"},
+      "price":{"type":"number", "minimum":0},
+      "sqft_living":{"type":"number", "minimum":0}
+    }
+  }
+}
