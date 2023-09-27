@@ -1,1 +1,8 @@
-python=3.10
+name: my_environment_name
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  # 其他依赖项，例如：
+  # - numpy
+  # - pandas
