@@ -2,7 +2,7 @@ name: example-environment
 channels:
   - defaults
 dependencies:
-  - python
+  - python=3.10
   - pip
   - pip:
     - matplotlib
